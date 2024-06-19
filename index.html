@@ -25,19 +25,25 @@
     <a href="https://amkhrjee.xyz" class="link link-primary">amkhrjee.xyz</a>
   </div>
   <br />
-  <label class="input input-bordered flex items-center gap-2">
-    <input type="text" class="grow" placeholder="Search" />
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
-      <path fill-rule="evenodd"
-        d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
-        clip-rule="evenodd" />
-    </svg>
-  </label>
-  <br />
+  <div class="dropdown w-full">
+    <label class="input input-bordered flex items-center gap-2">
+      <input type="text" class="grow" placeholder="Search" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
+        <path fill-rule="evenodd"
+          d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+          clip-rule="evenodd" />
+      </svg>
+    </label>
+    <ul class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-full">
+      <li><a>This is a </a></li>
+      <li><a>Work in progress...</a></li>
+    </ul>
+  </div>
+  <br /><br />
   <div>
-    <div id="prog-lang" class="flex justify-between items-center">
+    <div id="prog-lang" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Programming Languages</p>
-      <a href="#prog-lang" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#prog-lang" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     <p class="text-lg font-bold">JavaScript</p>
@@ -55,10 +61,12 @@
     Although learning C is not a prerequisite to learning C++, I recommened you learn C first anyway. The folllowing are
     excellent books for getting started with C.
     <ul>
-      <li class="italic"> - The C Programming Language</li>
-      <li class="italic"> - Effective C: An Introduction to Professional C Programming</li>
-      <li class="italic"> - Expert C Programming: Deep Secrets</li>
+      <li> - <span class="italic">The C Programming Language</span> by K&R</li>
+      <li> - <span class="italic">Effective C: An Introduction to Professional C Programming</span> by Robert Seacord
+      </li>
+      <li> - <span class="italic">Expert C Programming: Deep Secrets</span> by Peter van der Linden</li>
     </ul>
+    <br />
     For C++, <a href="https://www.learncpp.com/" class="link link-accent">learncpp.com</a> provides excellent tutorials.
     <br /><br />
     <p class="text-lg font-bold">Rust</p>
@@ -69,7 +77,7 @@
 
     <br /><br />
     <p class="text-lg font-bold">Java, C#</p>
-    I learnt Java by writing Java :P. <span class="italic">Head First Java</span> is a good introduction to the
+    I learnt Java by writing Java :-P. <span class="italic">Head First Java</span> is a good introduction to the
     language. Microsoft provides abundant documentaion and tutorials for C#.
     <br /><br />
     <p class="text-lg font-bold">x86 Assembly</p>
@@ -77,9 +85,9 @@
     library in 2022 and I
     think it taught me quite a bit of assembly in a weekend.
     <br /><br />
-    <div id="comp-arch" class="flex justify-between items-center">
+    <div id="comp-arch" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Computer Architecture</p>
-      <a href="#comp-arch" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#comp-arch" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     I think these two books work as excellent introduction to the subject:
@@ -95,9 +103,9 @@
     stuff.
 
     <br /><br />
-    <div id="mem-mgmt" class="flex justify-between items-center">
+    <div id="mem-mgmt" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Memory Managenent</p>
-      <a href="#mem-mgmt" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#mem-mgmt" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     Read the paper <a class="italic link link-accent"
@@ -116,9 +124,9 @@
 
 
     <br /><br />
-    <div id="op-sys" class="flex justify-between items-center">
+    <div id="op-sys" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Operating Systems</p>
-      <a href="#op-sys" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#op-sys" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     My personal favourite is the book <span class="italic">Operating System Concepts</span> by Silberschatz, Gagne &
@@ -128,9 +136,9 @@
       class="link link-accent italic">Operating System: Three Easy Pieces</a> book too.
 
     <br /><br />
-    <div id="compilers" class="flex justify-between items-center">
+    <div id="compilers" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Compilers</p>
-      <a href="#compilers" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#compilers" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     Although <a href="https://www-2.dc.uba.ar/staff/becher/dragon.pdf" class="link link-accent">the dragon book</a> is
@@ -147,9 +155,9 @@
     Ball.
 
     <br /><br />
-    <div id="databases" class="flex justify-between items-center">
+    <div id="databases" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Databases</p>
-      <a href="#databases" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#databases" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     I got my introduction to databases from the standard text <span class="italic">Fundamentals of Database
@@ -163,9 +171,9 @@
     excellent for getting your feet wet into the field.
 
     <br /><br />
-    <div id="discrete-math" class="flex justify-between items-center">
+    <div id="discrete-math" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Discrete Mathematics</p>
-      <a href="#discrete-math" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#discrete-math" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     <span class="italic">Discrete Mathematics & Its Application</span> by Kenneth Rosen probably has everything you'll
@@ -174,9 +182,9 @@
     more
     accessible than the Rosen book.
     <br /><br />
-    <div id="calc" class="flex justify-between items-center">
+    <div id="calc" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Calculus</p>
-      <a href="#calc" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#calc" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     A working knowledge of Calculus is essential for machine learning and other branches of theoretical computer
@@ -187,9 +195,9 @@
     <a href="https://youtube.com/playlist?list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x&si=zrOjWLl0kob4m0oD"
       class="link link-accent">3b1b's Essence of Calculus playlist</a> is a must-watch.
     <br /><br />
-    <div id="linalg" class="flex justify-between items-center">
+    <div id="linalg" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Linear Algebra</p>
-      <a href="#linalg" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#linalg" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     Some say ML & AI is just glorified Linear Algebra. Just like thousands others, I'm also a <span
@@ -203,9 +211,9 @@
       MIT lectures</a>.
 
     <br /><br />
-    <div id="prob-stats" class="flex justify-between items-center">
+    <div id="prob-stats" class="flex justify-between items-center group">
       <p class="text-xl font-serif">Probability & Statistics</p>
-      <a href="#prob-stats" class="material-symbols-outlined cursor-pointer">link</a>
+      <a href="#prob-stats" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
     </div>
     <div class="divider"></div>
     <a href="https://probability4datascience.com/" class="link link-accent italic">Introduction to Probability for Data
