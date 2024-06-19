@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="./output.css" />
 </head>
 
-<body data-theme="black" class="p-4 md:pl-48 md:pr-48">
+<body data-theme="black" class="p-4 md:pl-40 md:pr-40">
 
   <div class="flex justify-between items-baseline">
     <p class="text-xl italic">Collection of Resources</p>
@@ -68,7 +68,11 @@
     <p class="text-lg font-bold">Java, C#</p>
     I learnt Java by writing Java :P. <span class="italic">Head First Java</span> is a good introduction to the
     language. Microsoft provides abundant documentaion and tutorials for C#.
-
+    <br /><br />
+    <p class="text-lg font-bold">x86 Assembly</p>
+    I had picked up <span class="italic">Assembly Language for x86 Processors</span> by Kip R. Irvine from my university
+    library in 2022 and I
+    think it taught me quite a bit of assembly in a weekend.
     <br /><br />
     <p class="text-xl font-serif">Computer Architecture</p>
     <div class="divider"></div>
@@ -116,14 +120,58 @@
     <p class="text-xl font-serif">Compilers</p>
     <div class="divider"></div>
     Although <a href="https://www-2.dc.uba.ar/staff/becher/dragon.pdf" class="link link-accent">the dragon book</a> is
-    the standard when it comes to compiler design, I'd recommend against jumping to it
+    the standard when it comes to compiler design, I'd recommend against jumping on it
     first.
 
     <br /><br />
     Instead, pick up <a href="https://craftinginterpreters.com/" class="link link-accent italic">Crafting
       Interpreters</a> by Robert Nystrom to get a
-    first-hand experience of how interpreters are built in the real world.
+    first-hand experience of how interpreters are built in the real world. You can look into <a
+      class="link link-accent italic" href="https://interpreterbook.com/">Writing an Interpreter
+      in Go</a> or <a class="link link-accent italic" href="https://compilerbook.com/">Writing a Compiler in Go</a> too.
+    Both are written by Throsten
+    Ball.
+
+    <br /><br />
+    <p class="text-xl font-serif">Databases</p>
+    <div class="divider"></div>
+    I got my introduction to databases from the standard text <span class="italic">Fundamentals of Database
+      Systems</span> by Elmasri & Navathe. It provides a good mathematical grounding for further, more practical
+    explorations into the field.
+
+    <br /><br />
+    Hussein Nasser's Udemy course <a class="link link-accent"
+      href="https://www.udemy.com/share/102qyG3@Fvnc6x7tlacTisw21juVcPzvxNmll_azBs6uHO9PRaM-Ym3U8lSmAp43x1ZEPNHdvA==/">Fundamentals
+      of Database Engineering</a> is more than
+    excellent for getting your feet wet into the field.
+
+    <br /><br />
+    <p class="text-xl font-serif">More to be added...</p>
+    <div class="divider"></div>
+    I'll add more resources here when I get the time :-)
   </div>
+  <br /><br />
+  <br /><br />
+  <div>
+    <p class="text-center">Follow me on <a href="https://x.com/amkhrjee" class="link link-info">twitter</a>. Email
+      <a href="mailto:amkhrjee@gmail.com" class="link link-info">me</a>.
+    </p>
+    <p class="text-center italic">Last Updated: <span id="commit-date"></span></p>
+  </div>
+  <script>
+    fetch("https://api.github.com/repos/amkhrjee/resources/commits?per_page=1")
+      .then((res) => res.json())
+      .then((commits) => {
+        const lastCommitDate = commits[0].commit.author.date;
+        const formattedDate = new Date(lastCommitDate).toLocaleString("en-GB", {
+          day: "numeric",
+          month: "short",
+          year: "numeric",
+        });
+        document.getElementById("commit-date").innerHTML = formattedDate;
+      })
+      .catch((error) => console.error(error));
+  </script>
 </body>
 
 </html>
