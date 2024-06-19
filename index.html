@@ -10,12 +10,15 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="./output.css" />
 </head>
 
-<body class="p-4">
+<body data-theme="black" class="p-4 md:pl-48 md:pr-48">
 
   <div class="flex justify-between items-baseline">
     <p class="text-xl italic">Collection of Resources</p>
@@ -32,7 +35,7 @@
   </label>
   <br />
   <div>
-    <p class="text-xl">Programming Languages</p>
+    <p class="text-xl font-serif">Programming Languages</p>
     <div class="divider"></div>
     <p class="text-lg font-bold">JavaScript</p>
     Although there are many YT tutorials out there, I'd highly recommened learning JS from <a class="link link-accent"
@@ -63,11 +66,11 @@
 
     <br /><br />
     <p class="text-lg font-bold">Java, C#</p>
-    I learnt Java by writing Java 😅. <span class="italic">Head First Java</span> is a good introduction to the
+    I learnt Java by writing Java :P. <span class="italic">Head First Java</span> is a good introduction to the
     language. Microsoft provides abundant documentaion and tutorials for C#.
 
     <br /><br />
-    <p class="text-xl">Computer Architecture</p>
+    <p class="text-xl font-serif">Computer Architecture</p>
     <div class="divider"></div>
     I think these two books work as excellent introduction to the subject:
     <ul>
@@ -81,6 +84,45 @@
     cutting-edge
     stuff.
 
+    <br /><br />
+    <p class="text-xl font-serif">Memory Managenent</p>
+    <div class="divider"></div>
+    Read the paper <a class="italic link link-accent"
+      href="https://people.freebsd.org/~lstewart/articles/cpumemory.pdf">What Every Programmer Should Know About
+      Memory</a> by U. Drepper.
+    <br />
+    <br />
+    I've found this <a class="link link-accent"
+      href="https://youtube.com/playlist?list=PLiwt1iVUib9s2Uo5BeYmwkDFUh70fJPxX&si=1296I6Su6qnl2lLe">Youtube Lecture
+      Series by Prof. Black-Schaffer</a> to be extremely helpful for learning how virtual
+    memory works.
+    <br /><br />
+    <a class="link link-accent"
+      href="https://youtube.com/playlist?list=PLjgw_ONy8oIDjV3r0bOawg6dECNQuEqiA&si=tEpHPuTAIsuw5nJw">These videos
+      by Intermation</a> are great for learning about cache memory and data alignment.
+
+
+    <br /><br />
+    <p class="text-xl font-serif">Operating Systems</p>
+    <div class="divider"></div>
+    My personal favourite is the book <span class="italic">Operating System Concepts</span> by Silberschatz, Gagne &
+    Galvin.
+
+    <br />
+    I've heard good things about the <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/"
+      class="link link-accent italic">Operating System: Three Easy Pieces</a> book too.
+
+    <br /><br />
+    <p class="text-xl font-serif">Compilers</p>
+    <div class="divider"></div>
+    Although <a href="https://www-2.dc.uba.ar/staff/becher/dragon.pdf" class="link link-accent">the dragon book</a> is
+    the standard when it comes to compiler design, I'd recommend against jumping to it
+    first.
+
+    <br /><br />
+    Instead, pick up <a href="https://craftinginterpreters.com/" class="link link-accent italic">Crafting
+      Interpreters</a> by Robert Nystrom to get a
+    first-hand experience of how interpreters are built in the real world.
   </div>
 </body>
 

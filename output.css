@@ -983,19 +983,10 @@ html {
       color: color-mix(in oklab,var(--fallback-p,oklch(var(--p)/1)) 80%,black);
     }
 
-    .link-secondary:hover {
-      color: color-mix(in oklab,var(--fallback-s,oklch(var(--s)/1)) 80%,black);
-    }
-
     .link-accent:hover {
       color: color-mix(in oklab,var(--fallback-a,oklch(var(--a)/1)) 80%,black);
     }
   }
-}
-
-.link-secondary {
-  --tw-text-opacity: 1;
-  color: var(--fallback-s,oklch(var(--s)/var(--tw-text-opacity)));
 }
 
 .link-accent {
@@ -1134,10 +1125,6 @@ html {
   display: flex;
 }
 
-.inline-table {
-  display: inline-table;
-}
-
 .h-4 {
   height: 1rem;
 }
@@ -1162,24 +1149,16 @@ html {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .gap-2 {
   gap: 0.5rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .p-4 {
   padding: 1rem;
 }
 
-.text-center {
-  text-align: center;
+.font-serif {
+  font-family: Inter Tight;
 }
 
 .text-lg {
@@ -1192,11 +1171,6 @@ html {
   line-height: 1.75rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1207,4 +1181,14 @@ html {
 
 .opacity-70 {
   opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+  .md\:pl-48 {
+    padding-left: 12rem;
+  }
+
+  .md\:pr-48 {
+    padding-right: 12rem;
+  }
 }
