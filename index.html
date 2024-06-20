@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
 
-  <body data-theme="black" class="p-4 md:pl-40 md:pr-40">
+  <body class="p-4 md:pl-40 md:pr-40">
     <div class="flex justify-between items-baseline">
       <p class="text-xl italic">Collection of Resources</p>
       <a href="https://amkhrjee.xyz" class="link link-primary">amkhrjee.xyz</a>
@@ -443,10 +443,14 @@
         "Probability Statistics",
       ];
       dropdownList.visibility = "hidden";
+      searchInput.addEventListener("focusin", () => {
+        dropdownList.style.visibility = "hidden";
+      });
       searchInput.addEventListener("input", (e) => {
-        dropdownList.visibility = "hidden";
+        dropdownList.style.visibility = "hidden";
         dropdownList.replaceChildren();
         if (searchInput.value.length > 0) {
+          dropdownList.style.visibility = "visible";
           for (item of sections) {
             if (item.toLowerCase().includes(searchInput.value.toLowerCase())) {
               const listItem = document.createElement("li", {

@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html"],
-  daisyUi: {
-    themes: ["black"],
-  },
   theme: {
     extend: {
       fontFamily: {
