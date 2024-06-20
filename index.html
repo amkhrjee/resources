@@ -1,255 +1,467 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniruddha's Resources</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aniruddha's Resources</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./output.css" />
+  </head>
 
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="./output.css" />
-</head>
-
-<body data-theme="black" class="p-4 md:pl-40 md:pr-40">
-
-  <div class="flex justify-between items-baseline">
-    <p class="text-xl italic">Collection of Resources</p>
-    <a href="https://amkhrjee.xyz" class="link link-primary">amkhrjee.xyz</a>
-  </div>
-  <br />
-  <div class="dropdown w-full">
-    <label class="input input-bordered flex items-center gap-2">
-      <input type="text" class="grow" placeholder="Search" />
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
-        <path fill-rule="evenodd"
-          d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
-          clip-rule="evenodd" />
-      </svg>
-    </label>
-    <ul class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-full">
-      <li><a>This is a </a></li>
-      <li><a>Work in progress...</a></li>
-    </ul>
-  </div>
-  <br /><br />
-  <div>
-    <div id="prog-lang" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Programming Languages</p>
-      <a href="#prog-lang" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
+  <body data-theme="black" class="p-4 md:pl-40 md:pr-40">
+    <div class="flex justify-between items-baseline">
+      <p class="text-xl italic">Collection of Resources</p>
+      <a href="https://amkhrjee.xyz" class="link link-primary">amkhrjee.xyz</a>
     </div>
-    <div class="divider"></div>
-    <p class="text-lg font-bold">JavaScript</p>
-    Although there are many YT tutorials out there, I'd highly recommened learning JS from <a class="link link-accent"
-      href="https://javascript.info/">javascript.info</a>. It's like the missing documentation
-    to the language.
-
-    <br /><br />
-    <p class="text-lg font-bold">Python</p>
-    The <a class="link link-accent" href="https://docs.python.org/3/tutorial/index.html">official tutorial</a> is good
-    enough. <span class="italic">Head First Python</span> is good too.
-
-    <br /><br />
-    <p class="text-lg font-bold">C/C++</p>
-    Although learning C is not a prerequisite to learning C++, I recommened you learn C first anyway. The folllowing are
-    excellent books for getting started with C.
-    <ul>
-      <li> - <span class="italic">The C Programming Language</span> by K&R</li>
-      <li> - <span class="italic">Effective C: An Introduction to Professional C Programming</span> by Robert Seacord
-      </li>
-      <li> - <span class="italic">Expert C Programming: Deep Secrets</span> by Peter van der Linden</li>
-    </ul>
     <br />
-    For C++, <a href="https://www.learncpp.com/" class="link link-accent">learncpp.com</a> provides excellent tutorials.
-    <br /><br />
-    <p class="text-lg font-bold">Rust</p>
-    Although I am no expert in Rust, I learnt it (and still learn, when needed) from <a class="link link-accent"
-      href="https://rust-book.cs.brown.edu/">Brown
-      University's fork</a> of the
-    official <span class="italic">Rust book</span>.
 
-    <br /><br />
-    <p class="text-lg font-bold">Java, C#</p>
-    I learnt Java by writing Java :-P. <span class="italic">Head First Java</span> is a good introduction to the
-    language. Microsoft provides abundant documentaion and tutorials for C#.
-    <br /><br />
-    <p class="text-lg font-bold">x86 Assembly</p>
-    I had picked up <span class="italic">Assembly Language for x86 Processors</span> by Kip R. Irvine from my university
-    library in 2022 and I
-    think it taught me quite a bit of assembly in a weekend.
-    <br /><br />
-    <div id="comp-arch" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Computer Architecture</p>
-      <a href="#comp-arch" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
+    <!-- Search Bar -->
+    <div class="dropdown w-full">
+      <label class="input input-bordered flex items-center gap-2">
+        <input
+          autocomplete="off"
+          id="search-input"
+          type="text"
+          class="grow"
+          placeholder="Search"
+        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          class="w-4 h-4 opacity-70"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </label>
+      <ul
+        id="dropdown-list"
+        class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-full"
+      ></ul>
     </div>
-    <div class="divider"></div>
-    I think these two books work as excellent introduction to the subject:
-    <ul>
-      <li>- <span class="italic">Computer Organization & Architecture</span> by William Stallings</li>
-      <li>- <span class="italic">Computer Architecture: A Quantitive Approach</span> by Hennessy & Patterson</li>
-    </ul>
-    <br />
-    <a href="https://www.youtube.com/@OnurMutluLectures" class="link link-accent">Prof. Onur Mutlu's YouTube channel</a>
-    is a treaure trove of extremely good
-    CompArch lectures, including the
-    cutting-edge
-    stuff.
-
+    <!-- Main Content -->
     <br /><br />
-    <div id="mem-mgmt" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Memory Managenent</p>
-      <a href="#mem-mgmt" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
+    <div>
+      <div
+        id="Programming-Languages"
+        class="flex justify-between items-center group"
+      >
+        <p class="text-xl font-serif">Programming Languages</p>
+        <a
+          href="#Programming-Languages"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      <p class="text-lg font-bold">JavaScript</p>
+      Although there are many YT tutorials out there, I'd highly recommened
+      learning JS from
+      <a class="link link-accent" href="https://javascript.info/"
+        >javascript.info</a
+      >. It's like the missing documentation to the language.
+
+      <br /><br />
+      <p class="text-lg font-bold">Python</p>
+      The
+      <a
+        class="link link-accent"
+        href="https://docs.python.org/3/tutorial/index.html"
+        >official tutorial</a
+      >
+      is good enough. <span class="italic">Head First Python</span> is good too.
+
+      <br /><br />
+      <p class="text-lg font-bold">C/C++</p>
+      Although learning C is not a prerequisite to learning C++, I recommened
+      you learn C first anyway. The folllowing are excellent books for getting
+      started with C.
+      <ul>
+        <li>- <span class="italic">The C Programming Language</span> by K&R</li>
+        <li>
+          -
+          <span class="italic"
+            >Effective C: An Introduction to Professional C Programming</span
+          >
+          by Robert Seacord
+        </li>
+        <li>
+          - <span class="italic">Expert C Programming: Deep Secrets</span> by
+          Peter van der Linden
+        </li>
+      </ul>
+      <br />
+      For C++,
+      <a href="https://www.learncpp.com/" class="link link-accent"
+        >learncpp.com</a
+      >
+      provides excellent tutorials. <br /><br />
+      <p class="text-lg font-bold">Rust</p>
+      Although I am no expert in Rust, I learnt it (and still learn, when
+      needed) from
+      <a class="link link-accent" href="https://rust-book.cs.brown.edu/"
+        >Brown University's fork</a
+      >
+      of the official <span class="italic">Rust book</span>.
+
+      <br /><br />
+      <p class="text-lg font-bold">Java, C#</p>
+      I learnt Java by writing Java :-P.
+      <span class="italic">Head First Java</span> is a good introduction to the
+      language. Microsoft provides abundant documentaion and tutorials for C#.
+      <br /><br />
+      <p class="text-lg font-bold">x86 Assembly</p>
+      I had picked up
+      <span class="italic">Assembly Language for x86 Processors</span> by Kip R.
+      Irvine from my university library in 2022 and I think it taught me quite a
+      bit of assembly in a weekend. <br /><br />
+      <div
+        id="Computer-Architecture"
+        class="flex justify-between items-center group"
+      >
+        <p class="text-xl font-serif">Computer Architecture</p>
+        <a
+          href="#Computer-Architecture"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      I think these two books work as excellent introduction to the subject:
+      <ul>
+        <li>
+          - <span class="italic">Computer Organization & Architecture</span> by
+          William Stallings
+        </li>
+        <li>
+          -
+          <span class="italic"
+            >Computer Architecture: A Quantitive Approach</span
+          >
+          by Hennessy & Patterson
+        </li>
+      </ul>
+      <br />
+      <a
+        href="https://www.youtube.com/@OnurMutluLectures"
+        class="link link-accent"
+        >Prof. Onur Mutlu's YouTube channel</a
+      >
+      is a treaure trove of extremely good CompArch lectures, including the
+      cutting-edge stuff.
+
+      <br /><br />
+      <div
+        id="Memory-Managenent"
+        class="flex justify-between items-center group"
+      >
+        <p class="text-xl font-serif">Memory Managenent</p>
+        <a
+          href="#Memory-Managenent"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      Read the paper
+      <a
+        class="italic link link-accent"
+        href="https://people.freebsd.org/~lstewart/articles/cpumemory.pdf"
+        >What Every Programmer Should Know About Memory</a
+      >
+      by U. Drepper.
+      <br />
+      <br />
+      I've found this
+      <a
+        class="link link-accent"
+        href="https://youtube.com/playlist?list=PLiwt1iVUib9s2Uo5BeYmwkDFUh70fJPxX&si=1296I6Su6qnl2lLe"
+        >Youtube Lecture Series by Prof. Black-Schaffer</a
+      >
+      to be extremely helpful for learning how virtual memory works.
+      <br /><br />
+      <a
+        class="link link-accent"
+        href="https://youtube.com/playlist?list=PLjgw_ONy8oIDjV3r0bOawg6dECNQuEqiA&si=tEpHPuTAIsuw5nJw"
+        >These videos by Intermation</a
+      >
+      are great for learning about cache memory and data alignment.
+
+      <br /><br />
+      <div
+        id="Operating-Systems"
+        class="flex justify-between items-center group"
+      >
+        <p class="text-xl font-serif">Operating Systems</p>
+        <a
+          href="#Operating-Systems"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      My personal favourite is the book
+      <span class="italic">Operating System Concepts</span> by Silberschatz,
+      Gagne & Galvin.
+      <br />
+      I've heard good things about the
+      <a
+        href="https://pages.cs.wisc.edu/~remzi/OSTEP/"
+        class="link link-accent italic"
+        >Operating System: Three Easy Pieces</a
+      >
+      book too.
+
+      <br /><br />
+      <div id="Compilers" class="flex justify-between items-center group">
+        <p class="text-xl font-serif">Compilers</p>
+        <a
+          href="#Compilers"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      Although
+      <a
+        href="https://www-2.dc.uba.ar/staff/becher/dragon.pdf"
+        class="link link-accent"
+        >the dragon book</a
+      >
+      is the standard when it comes to compiler design, I'd recommend against
+      jumping on it first.
+
+      <br /><br />
+      Instead, pick up
+      <a
+        href="https://craftinginterpreters.com/"
+        class="link link-accent italic"
+        >Crafting Interpreters</a
+      >
+      by Robert Nystrom to get a first-hand experience of how interpreters are
+      built in the real world. You can look into
+      <a class="link link-accent italic" href="https://interpreterbook.com/"
+        >Writing an Interpreter in Go</a
+      >
+      or
+      <a class="link link-accent italic" href="https://compilerbook.com/"
+        >Writing a Compiler in Go</a
+      >
+      too. Both are written by Throsten Ball.
+
+      <br /><br />
+      <div id="Databases" class="flex justify-between items-center group">
+        <p class="text-xl font-serif">Databases</p>
+        <a
+          href="#Databases"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      I got my introduction to databases from the standard text
+      <span class="italic">Fundamentals of Database Systems</span> by Elmasri &
+      Navathe. It provides a good mathematical grounding for further, more
+      practical explorations into the field.
+
+      <br /><br />
+      Hussein Nasser's Udemy course
+      <a
+        class="link link-accent"
+        href="https://www.udemy.com/share/102qyG3@Fvnc6x7tlacTisw21juVcPzvxNmll_azBs6uHO9PRaM-Ym3U8lSmAp43x1ZEPNHdvA==/"
+        >Fundamentals of Database Engineering</a
+      >
+      is more than excellent for getting your feet wet into the field.
+
+      <br /><br />
+      <div
+        id="Discrete-Mathematics"
+        class="flex justify-between items-center group"
+      >
+        <p class="text-xl font-serif">Discrete Mathematics</p>
+        <a
+          href="#Discrete-Mathematics"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      <span class="italic">Discrete Mathematics & Its Application</span> by
+      Kenneth Rosen probably has everything you'll ever need. I actually read
+      <span class="italic">Essentials of Discrete Mathematics</span> by David
+      Hunter and found it more accessible than the Rosen book. <br /><br />
+      <div id="Calculus" class="flex justify-between items-center group">
+        <p class="text-xl font-serif">Calculus</p>
+        <a
+          href="#Calculus"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      A working knowledge of Calculus is essential for machine learning and some
+      branches of theoretical computer science. I'd highly recommend going
+      through <span class="italic">Calculus: Concepts & Contexts</span> by
+      Stewart & Kokoska. It covers vector calculus along with all the necessary
+      prerequisites. <br /><br />
+      <a
+        href="https://youtube.com/playlist?list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x&si=zrOjWLl0kob4m0oD"
+        class="link link-accent"
+        >3b1b's Essence of Calculus playlist</a
+      >
+      is a must-watch. <br /><br />
+      <div id="Linear-Algebra" class="flex justify-between items-center group">
+        <p class="text-xl font-serif">Linear Algebra</p>
+        <a
+          href="#Linear-Algebra"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      Some say ML & AI is just glorified Linear Algebra. Just like thousands
+      others, I'm also a
+      <span class="italic">Introduction to Linear Algebra</span> by Gilbert
+      Strang stan. You can also read the
+      <a
+        href="https://nostarch.com/linearalgebra"
+        class="link link-accent italic"
+        >Manga Guide to Linear Algebra</a
+      >
+      if you're a weeb. <br /><br />
+      <a
+        href="https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=qjnue7M0er4lEWx9"
+        class="link link-accent"
+        >3b1b's Linear Algebra playlist</a
+      >
+      is a must-watch. You can also watch
+      <a
+        href="https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/"
+        class="link link-accent"
+        >Gilbert Strang's MIT lectures</a
+      >.
+
+      <br /><br />
+      <div
+        id="Probability-Statistics"
+        class="flex justify-between items-center group"
+      >
+        <p class="text-xl font-serif">Probability & Statistics</p>
+        <a
+          href="#Probability-Statistics"
+          class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
+          >link</a
+        >
+      </div>
+      <div class="divider"></div>
+      <a
+        href="https://probability4datascience.com/"
+        class="link link-accent italic"
+        >Introduction to Probability for Data Science</a
+      >
+      by Stanley Chan is the single best book I've ever read on the subject.
+      <br />I read <span class="italic">Head First Statistics</span> and I think
+      it provides a good overview of the subject. I also read
+      <span class="italic"
+        >Statistics for People Who Think They Hate Statistics in R</span
+      >
+      while taking a
+      <a
+        href="https://onlinecourses.nptel.ac.in/noc21_cs23/preview"
+        class="link link-accent"
+        >Data Science course</a
+      >
+      from IIT Madras via NPTEL. <br /><br />
+      <p class="text-xl font-serif">More to be added...</p>
+      <div class="divider"></div>
+      This is a living document. I'll add more resources here when I get the
+      time :-)
     </div>
-    <div class="divider"></div>
-    Read the paper <a class="italic link link-accent"
-      href="https://people.freebsd.org/~lstewart/articles/cpumemory.pdf">What Every Programmer Should Know About
-      Memory</a> by U. Drepper.
-    <br />
-    <br />
-    I've found this <a class="link link-accent"
-      href="https://youtube.com/playlist?list=PLiwt1iVUib9s2Uo5BeYmwkDFUh70fJPxX&si=1296I6Su6qnl2lLe">Youtube Lecture
-      Series by Prof. Black-Schaffer</a> to be extremely helpful for learning how virtual
-    memory works.
     <br /><br />
-    <a class="link link-accent"
-      href="https://youtube.com/playlist?list=PLjgw_ONy8oIDjV3r0bOawg6dECNQuEqiA&si=tEpHPuTAIsuw5nJw">These videos
-      by Intermation</a> are great for learning about cache memory and data alignment.
-
-
     <br /><br />
-    <div id="op-sys" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Operating Systems</p>
-      <a href="#op-sys" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
+    <div>
+      <p class="text-center">
+        Follow me on
+        <a href="https://x.com/amkhrjee" class="link link-info">twitter</a>.
+        Email <a href="mailto:amkhrjee@gmail.com" class="link link-info">me</a>.
+      </p>
+      <p class="text-center italic">
+        Last Updated: <span id="commit-date"></span>
+      </p>
     </div>
-    <div class="divider"></div>
-    My personal favourite is the book <span class="italic">Operating System Concepts</span> by Silberschatz, Gagne &
-    Galvin.
-    <br />
-    I've heard good things about the <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/"
-      class="link link-accent italic">Operating System: Three Easy Pieces</a> book too.
+    <script>
+      // Getting the last updated date
+      fetch(
+        "https://api.github.com/repos/amkhrjee/resources/commits?per_page=1"
+      )
+        .then((res) => res.json())
+        .then((commits) => {
+          const lastCommitDate = commits[0].commit.author.date;
+          const formattedDate = new Date(lastCommitDate).toLocaleString(
+            "en-GB",
+            {
+              day: "numeric",
+              month: "short",
+              year: "numeric",
+            }
+          );
+          document.getElementById("commit-date").innerHTML = formattedDate;
+        })
+        .catch((error) => console.error(error));
 
-    <br /><br />
-    <div id="compilers" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Compilers</p>
-      <a href="#compilers" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
-    </div>
-    <div class="divider"></div>
-    Although <a href="https://www-2.dc.uba.ar/staff/becher/dragon.pdf" class="link link-accent">the dragon book</a> is
-    the standard when it comes to compiler design, I'd recommend against jumping on it
-    first.
-
-    <br /><br />
-    Instead, pick up <a href="https://craftinginterpreters.com/" class="link link-accent italic">Crafting
-      Interpreters</a> by Robert Nystrom to get a
-    first-hand experience of how interpreters are built in the real world. You can look into <a
-      class="link link-accent italic" href="https://interpreterbook.com/">Writing an Interpreter
-      in Go</a> or <a class="link link-accent italic" href="https://compilerbook.com/">Writing a Compiler in Go</a> too.
-    Both are written by Throsten
-    Ball.
-
-    <br /><br />
-    <div id="databases" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Databases</p>
-      <a href="#databases" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
-    </div>
-    <div class="divider"></div>
-    I got my introduction to databases from the standard text <span class="italic">Fundamentals of Database
-      Systems</span> by Elmasri & Navathe. It provides a good mathematical grounding for further, more practical
-    explorations into the field.
-
-    <br /><br />
-    Hussein Nasser's Udemy course <a class="link link-accent"
-      href="https://www.udemy.com/share/102qyG3@Fvnc6x7tlacTisw21juVcPzvxNmll_azBs6uHO9PRaM-Ym3U8lSmAp43x1ZEPNHdvA==/">Fundamentals
-      of Database Engineering</a> is more than
-    excellent for getting your feet wet into the field.
-
-    <br /><br />
-    <div id="discrete-math" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Discrete Mathematics</p>
-      <a href="#discrete-math" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
-    </div>
-    <div class="divider"></div>
-    <span class="italic">Discrete Mathematics & Its Application</span> by Kenneth Rosen probably has everything you'll
-    ever need. I actually read <span class="italic">Essentials of Discrete Mathematics</span> by David Hunter and found
-    it
-    more
-    accessible than the Rosen book.
-    <br /><br />
-    <div id="calc" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Calculus</p>
-      <a href="#calc" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
-    </div>
-    <div class="divider"></div>
-    A working knowledge of Calculus is essential for machine learning and other branches of theoretical computer
-    science. I'd highly recommend going through <span class="italic">Calculus: Concepts &
-      Contexts</span> by Stewart & Kokoska. It
-    covers vector calculus along with all the necessary prerequisites.
-    <br /><br />
-    <a href="https://youtube.com/playlist?list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x&si=zrOjWLl0kob4m0oD"
-      class="link link-accent">3b1b's Essence of Calculus playlist</a> is a must-watch.
-    <br /><br />
-    <div id="linalg" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Linear Algebra</p>
-      <a href="#linalg" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
-    </div>
-    <div class="divider"></div>
-    Some say ML & AI is just glorified Linear Algebra. Just like thousands others, I'm also a <span
-      class="italic">Introduction to Linear Algebra</span> by Gilbert Strang stan. You can also read the <a
-      href="https://nostarch.com/linearalgebra" class="link link-accent italic">Manga Guide to Linear Algebra</a> if
-    you're a weeb.
-    <br /><br />
-    <a href="https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=qjnue7M0er4lEWx9"
-      class="link link-accent">3b1b's Linear Algebra playlist</a> is a must-watch. You can also watch <a
-      href="https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/" class="link link-accent">Gilbert Strang's
-      MIT lectures</a>.
-
-    <br /><br />
-    <div id="prob-stats" class="flex justify-between items-center group">
-      <p class="text-xl font-serif">Probability & Statistics</p>
-      <a href="#prob-stats" class="material-symbols-outlined cursor-pointer invisible group-hover:visible">link</a>
-    </div>
-    <div class="divider"></div>
-    <a href="https://probability4datascience.com/" class="link link-accent italic">Introduction to Probability for Data
-      Science</a> by Stanley Chan is the single best book I've ever read on the subject.
-    <br />I read <span class="italic">Head First Statistics</span> and I think it provides a good overview of the
-    subject. I also read
-    <span class="italic">Statistics for People Who Think They Hate Statistics in R</span> while taking a <a
-      href="https://onlinecourses.nptel.ac.in/noc21_cs23/preview" class="link link-accent">Data Science
-      course</a> from IIT Madras via NPTEL.
-    <br /><br />
-    <p class="text-xl font-serif">More to be added...</p>
-    <div class="divider"></div>
-    This is a living document. I'll add more resources here when I get the time :-)
-  </div>
-  <br /><br />
-  <br /><br />
-  <div>
-    <p class="text-center">Follow me on <a href="https://x.com/amkhrjee" class="link link-info">twitter</a>. Email
-      <a href="mailto:amkhrjee@gmail.com" class="link link-info">me</a>.
-    </p>
-    <p class="text-center italic">Last Updated: <span id="commit-date"></span></p>
-  </div>
-  <script>
-    fetch("https://api.github.com/repos/amkhrjee/resources/commits?per_page=1")
-      .then((res) => res.json())
-      .then((commits) => {
-        const lastCommitDate = commits[0].commit.author.date;
-        const formattedDate = new Date(lastCommitDate).toLocaleString("en-GB", {
-          day: "numeric",
-          month: "short",
-          year: "numeric",
-        });
-        document.getElementById("commit-date").innerHTML = formattedDate;
-      })
-      .catch((error) => console.error(error));
-  </script>
-</body>
-
+      // Search Functionality
+      const searchInput = document.getElementById("search-input");
+      const dropdownList = document.getElementById("dropdown-list");
+      const sections = [
+        "Programming Languages",
+        "Computer Architecture",
+        "Operating Systems",
+        "Compilers",
+        "Memory Management",
+        "Databases",
+        "Discrete Mathematics",
+        "Calculus",
+        "Linear Algebra",
+        "Probability Statistics",
+      ];
+      dropdownList.visibility = "hidden";
+      searchInput.addEventListener("input", (e) => {
+        dropdownList.visibility = "hidden";
+        dropdownList.replaceChildren();
+        if (searchInput.value.length > 0) {
+          for (item of sections) {
+            if (item.toLowerCase().includes(searchInput.value.toLowerCase())) {
+              const listItem = document.createElement("li", {
+                id: `List-${item.replace(" ", "-")}`,
+              });
+              const anchorTag = document.createElement("a");
+              anchorTag.textContent = item;
+              anchorTag.href = `#${item.replace(" ", "-")}`;
+              listItem.appendChild(anchorTag);
+              console.log(listItem);
+              dropdownList.appendChild(listItem);
+            }
+          }
+        }
+      });
+    </script>
+  </body>
 </html>
