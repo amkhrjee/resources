@@ -1499,6 +1499,10 @@ html {
   gap: 0.5rem;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .rounded-box {
   border-radius: var(--rounded-box, 1rem);
 }
