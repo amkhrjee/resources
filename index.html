@@ -17,14 +17,42 @@
 
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link rel="stylesheet" href="./output.css" />
   </head>
 
-  <body class="p-4 md:pl-40 md:pr-40">
-    <div class="flex justify-between items-baseline">
-      <p class="text-xl italic">Collection of Resources</p>
+  <body class="p-4 md:pl-56 md:pr-56 lg:pl-80 lg:pr-80">
+    <div class="flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <!-- <span class="material-symbols-rounded text-md">lists</span> -->
+        <div class="drawerw-fit">
+          <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+          <div class="drawer-content">
+            <!-- Page content here -->
+            <label for="my-drawer" class="drawer-button"
+              ><span class="material-symbols-rounded text-md mt-2"
+                >lists</span
+              ></label
+            >
+          </div>
+          <div class="drawer-side z-50">
+            <label
+              for="my-drawer"
+              aria-label="close sidebar"
+              class="drawer-overlay"
+            ></label>
+            <ul
+              onclick="closeSideBar()"
+              id="sidebar"
+              class="menu p-4 w-80 min-h-full bg-base-200 text-base-content"
+            >
+              <!-- Sidebar content here -->
+            </ul>
+          </div>
+        </div>
+        <p class="text-xl italic">Collection of Resources</p>
+      </div>
       <a href="https://amkhrjee.xyz" class="link link-primary">amkhrjee.xyz</a>
     </div>
     <br />
@@ -170,12 +198,12 @@
 
       <br /><br />
       <div
-        id="Memory-Managenent"
+        id="Memory-Management"
         class="flex justify-between items-center group"
       >
         <p class="text-xl font-serif">Memory Managenent</p>
         <a
-          href="#Memory-Managenent"
+          href="#Memory-Management"
           class="material-symbols-outlined cursor-pointer invisible group-hover:visible"
           >link</a
         >
@@ -466,6 +494,28 @@
           }
         }
       });
+
+      const closeSideBar = () => {
+        setTimeout(() => {
+          document.getElementById("my-drawer").checked = false;
+        }, 200);
+      };
+
+      // Sidebar
+      const sidebar = document.getElementById("sidebar");
+      for (item of sections) {
+        if (item.toLowerCase().includes(searchInput.value.toLowerCase())) {
+          const listItem = document.createElement("li", {
+            id: `List-${item.replace(" ", "-")}`,
+          });
+          const anchorTag = document.createElement("a");
+          anchorTag.textContent = item;
+          anchorTag.href = `#${item.replace(" ", "-")}`;
+          listItem.appendChild(anchorTag);
+          console.log(listItem);
+          sidebar.appendChild(listItem);
+        }
+      }
     </script>
   </body>
 </html>
