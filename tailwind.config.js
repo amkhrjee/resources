@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./*.html"],
+  daisyui: {
+    themes: ["cmyk"],
+  },
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Spectral", "system-ui"],
-        serif: ["Inter Tight"],
+        serif: ["Spectral", "system-ui"],
+        sans: ["Inter Tight"],
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
