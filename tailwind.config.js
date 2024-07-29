@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./*.html"],
   daisyui: {
-    themes: ["cmyk"],
+    themes: ["light", "dark"],
   },
   theme: {
     extend: {
