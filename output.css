@@ -2263,6 +2263,11 @@ html:has(.drawer-toggle:checked) {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .italic {
   font-style: italic;
 }
