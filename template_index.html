@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniruddha's Resources</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta description="Collection of helpful resources by Aniruddha Mukherjee (@amkhrjee)">
+    <link rel=" stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body class="p-4 md:mx-40 lg:mx-80">
+    <div class="flex justify-between items-center">
+        <p class="text-lg text-accent italic font-bold"><a href="/">Collection of Resources</a></p>
+        <a href="https://amkhrjee.xyz" class="link link-primary">amkhrjee.xyz</a>
+    </div>
+    <br />
+    <!-- Search Bar -->
+    <!-- <div class="dropdown w-full">
+    <label class="input input-bordered flex items-center gap-2">
+      <input autocomplete="off" id="search-input" type="text" class="grow" placeholder="Ctrl + / to search" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
+        <path fill-rule="evenodd"
+          d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+          clip-rule="evenodd" />
+      </svg>
+    </label>
+    <ul id="dropdown-list" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-full"></ul>
+  </div> -->
+    <!-- Main Content -->
+    <!-- <br /><br /> -->
+    <div class="prose lg:prose-xl">
+        <!-- @Build -->
+    </div>
+    <br />
+    <!-- Footer -->
+    <div class="text-center">
+        <p class="flex gap-4 justify-center">
+            <a href="https://x.com/amkhrjee" class="link link-info">twitter</a>
+            <a href="mailto:amkhrjee@gmail.com" class="link link-info">email</a>
+            <a href="blog.amkhrjee.xyz" class="link link-info">blog</a>
+        </p>
+        <p class="text-center">broken links? <a class="link link-secondary" target="_blank"
+                href="https://github.com/amkhrjee/resources">raise an issue on github</a></p>
+        <p>python script + daisyui + html + markdown</p>
+        <p class="text-center italic">
+            Last Updated: <span id="commit-date"></span>
+        </p>
+    </div>
+    <script>
+        // Getting the last updated date
+        fetch(
+            "https://api.github.com/repos/amkhrjee/resources/commits?per_page=1"
+        )
+            .then((res) => res.json())
+            .then((commits) => {
+                const lastCommitDate = commits[0].commit.author.date;
+                const formattedDate = new Date(lastCommitDate).toLocaleString(
+                    "en-GB",
+                    {
+                        day: "numeric",
+                        month: "short",
+                        year: "numeric",
+                    }
+                );
+                document.getElementById("commit-date").innerHTML = formattedDate;
+            })
+            .catch((error) => console.error(error));
+    </script>
+</body>
+
+</html>
