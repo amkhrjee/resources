@@ -14,6 +14,10 @@ A classic. Only recently got the time to read it. Thought provoking. The author 
 
 Has some nice illustrations. Talks about why design should be both functional and beautiful. Oddball book I picked up because I thought I was good at sketching. I am not.
 
+### Infinite Powers
+
+Written by Steven Strogatz. Talks about the history of Calculus. Lots of fun maths history trivia.
+
 ### Revolutionaries
 
 Written by Sanjeev Sanyal. Talks about the rebel movements & revolutionaries of pre-independent India. I'm a history nerd so I really liked this one.
