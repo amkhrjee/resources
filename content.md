@@ -1,8 +1,8 @@
-Hi! This is my index of all the resources that I think are good and worth keeping a note of. You can also checkout my fiction and non-fiction [book recommendations](/books.html). I also maintain a very opinionated list of [anime recommendations](/anime.html), if you're into that sort of stuff.
+Hi! This is my index of all the resources that I think are good and worth keeping a note of. You can also checkout my [book recommendations](/books.html). I also maintain a very opinionated list of [anime recommendations](/anime.html), if you're into that sort of stuff.
 
 ## Programming Languages
 
-### JS & TS
+### JavaScriptS & TypeScript
 
 I highly recommend learning JS from [javascript.info](https://javascript.info/). It's like the missing documentation to the language. The [official documentaion](https://www.typescriptlang.org/) is good enough for getting started with TypeScript.
 
@@ -28,11 +28,9 @@ I learnt Rust (and still learn, when needed) from [Brown University's fork](htt
 
 Inspired by melkeydev's video, I learnt Go from [A Tour of Go](https://go.dev/tour/welcome/1). I haven't had the opportunity to use Go in any of "real" projects, so this section will have updates when I actually use Go in production.
 
-### Java, C#
+### Java
 
-I learnt Java by writing Java :-P. *Head First Java* is a good introduction to the language. Perhaps you'll also need to learn *Head First Design Patterns*, which uses Java.
-
-Microsoft provides abundant documentaion and tutorials for C#. So just use your search engine :)
+*Head First Java* is a good introduction to the language. Perhaps you'll also need to go through *Head First Design Patterns*, which uses Java.
 
 ### x86 Assembly
 
@@ -108,10 +106,12 @@ Brian Holt's [Complete Intro to Containers v2](https://containers-v2.holt.cours
 
 ## AWS Certifications
 
-I got my AWS Certified Cloud Practitioner Certification (yeah, that's a mouthful) by bingeing [Neal Davis's Udemy course](https://www.udemy.com/course/aws-certified-cloud-practitioner-practice-exams-c) in 6 days. I got 804. Not bad for seven days of prep and sitting for the exam with flaky university campus network connection I guess (humble brag).
+I got my AWS Certified Cloud Practitioner Certification (yeah, that's a mouthful) by bingeing [Neal Davis's Udemy course](https://www.udemy.com/course/aws-certified-cloud-practitioner-practice-exams-c) in 6 days. He's really good at explaining stuff.
 
 I also made my notes [public](https://satisfying-wallet-4a1.notion.site/AWS-Certs-Prep-f608a6f62fe04059bbf739f2b238bbb0).
 
 ## Natural Language Processing
 
-Currently reading [NLP in Action](https://www.manning.com/books/natural-language-processing-in-action) and I think it's really good.
+Currently reading [NLP in Action](https://www.manning.com/books/natural-language-processing-in-action) and I think it works as a good intro to the subject.
+
+P.S. If you have any suggestions, you can [mail](mailto:amkhrjee@gmail.com) me.

@@ -1,47 +1,181 @@
-Although I'm mostly reading academic books for the last few years, I try to squeeze out some time for other sort of books too.
+<!doctype html>
+<html class="scroll-smooth" lang="en">
 
-## Recommended
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniruddha's Resources</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta description="Collection of helpful resources by Aniruddha Mukherjee (@amkhrjee)">
+    <link rel=" stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
 
-### Project Hail Mary
+<body class="p-4 md:mx-40 lg:mx-80">
+    <div class="flex justify-between items-center">
+        <p class="text-lg text-accent italic font-bold"><a href="/">Collection of Resources</a></p>
+        <a href="https://amkhrjee.xyz" class="link link-primary">amkhrjee.xyz</a>
+    </div>
+    <br />
+    <!-- Search Bar -->
+    <!-- <div class="dropdown w-full">
+    <label class="input input-bordered flex items-center gap-2">
+      <input autocomplete="off" id="search-input" type="text" class="grow" placeholder="Ctrl + / to search" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
+        <path fill-rule="evenodd"
+          d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+          clip-rule="evenodd" />
+      </svg>
+    </label>
+    <ul id="dropdown-list" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-full"></ul>
+  </div> -->
+    <!-- Main Content -->
+    <!-- <br /><br /> -->
+    <div class="prose lg:prose-lg">
+<!doctype html>
+<html class="scroll-smooth" lang="en">
 
-Read this if you like more science in your fiction. Extremely enjoyable.
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniruddha's Resources</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta description="Collection of helpful resources by Aniruddha Mukherjee (@amkhrjee)">
+    <link rel=" stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
 
-### 1984
+<body class="p-4 md:mx-40 lg:mx-80">
+    <div class="flex justify-between items-center">
+        <p class="text-lg text-accent italic font-bold"><a href="/">Collection of Resources</a></p>
+        <a href="https://amkhrjee.xyz" class="link link-primary">amkhrjee.xyz</a>
+    </div>
+    <br />
+    <!-- Search Bar -->
+    <!-- <div class="dropdown w-full">
+    <label class="input input-bordered flex items-center gap-2">
+      <input autocomplete="off" id="search-input" type="text" class="grow" placeholder="Ctrl + / to search" />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
+        <path fill-rule="evenodd"
+          d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+          clip-rule="evenodd" />
+      </svg>
+    </label>
+    <ul id="dropdown-list" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-full"></ul>
+  </div> -->
+    <!-- Main Content -->
+    <!-- <br /><br /> -->
+    <div class="prose lg:prose-xl">
+<p>Although I'm mostly reading academic books for the last few years, I try to squeeze out some time for other sort of books too.</p>
+<h2>Recommended</h2>
+<h3>Project Hail Mary</h3>
+<p>Read this if you like more science in your fiction. Extremely enjoyable.</p>
+<h3>1984</h3>
+<p>A classic. Only recently got the time to read it. Thought provoking. The author was born in Bihar btw.</p>
+<h3>Design as Art</h3>
+<p>Has some nice illustrations. Talks about why design should be both functional and beautiful. Oddball book I picked up because I thought I was good at sketching. I am not.</p>
+<h3>Infinite Powers</h3>
+<p>Written by Steven Strogatz. Talks about the history of Calculus. Lots of fun maths history trivia.</p>
+<h3>Revolutionaries</h3>
+<p>Written by Sanjeev Sanyal. Talks about the rebel movements &amp; revolutionaries of pre-independent India. I'm a history nerd so I really liked this one.</p>
+<h3>The Incredible History of India's Geography</h3>
+<p>Another one by Sanjeev Sanyal. Enjoyed this one thorughly. Good gift material for kids too.</p>
+<h3>Let's Talk Money</h3>
+<p>By Monika Halan. Personal finance stuff. Very well written.</p>
+<h3>Cosmos</h3>
+<p>Magnum opus of Carl Sagan. Inspiring &amp; revealing. A must read.</p>
+<h2>Books I own but haven't read yet</h2>
+<blockquote>
+<p>Reading books and buying books are two totally different hobbies.</p>
+</blockquote>
+<ul>
+<li><em>The Martian</em> by Andy Weir</li>
+<li><em>The Righteous Life</em> by APJ Abdul Kalam</li>
+<li><em>Thinking Fast &amp; Slow</em> by Daniel Kahneman</li>
+<li><em>Alan Turing: The Enigma</em> by Andrew Hodges</li>
+<li><em>Steve Jobs</em> by Walter Isaacson (halfway through it)</li>
+<li><em>Gene</em> by Siddhartha Mukherjee (no, we're not related afaik)</li>
+<li><em>Midnight's Machines</em> by AM Sukumar (halfway through this one too)</li>
+</ul>        <!-- @Build -->
+    </div>
+    <br />
+    <!-- Footer -->
+    <div class="text-center">
+        <p class="flex gap-4 justify-center">
+            <a href="https://x.com/amkhrjee" class="link link-info">twitter</a>
+            <a href="mailto:amkhrjee@gmail.com" class="link link-info">email</a>
+            <a href="blog.amkhrjee.xyz" class="link link-info">blog</a>
+        </p>
+        <p class="text-center">broken links? <a class="link link-secondary" target="_blank"
+                href="https://github.com/amkhrjee/resources">raise an issue on github</a></p>
+        <p>python script + daisyui + html + markdown</p>
+        <p class="text-center italic">
+            Last Updated: <span id="commit-date"></span>
+        </p>
+    </div>
+    <script>
+        // Getting the last updated date
+        fetch(
+            "https://api.github.com/repos/amkhrjee/resources/commits?per_page=1"
+        )
+            .then((res) => res.json())
+            .then((commits) => {
+                const lastCommitDate = commits[0].commit.author.date;
+                const formattedDate = new Date(lastCommitDate).toLocaleString(
+                    "en-GB",
+                    {
+                        day: "numeric",
+                        month: "short",
+                        year: "numeric",
+                    }
+                );
+                document.getElementById("commit-date").innerHTML = formattedDate;
+            })
+            .catch((error) => console.error(error));
+    </script>
+</body>
 
-A classic. Only recently got the time to read it. Thought provoking. The author was born in Bihar btw.
+</html>        <!-- @Build -->
+    </div>
+    <br />
+    <!-- Footer -->
+    <div class="text-center">
+        <p class="flex gap-4 justify-center">
+            <a href="https://x.com/amkhrjee" class="link link-info">twitter</a>
+            <a href="mailto:amkhrjee@gmail.com" class="link link-info">email</a>
+            <a href="blog.amkhrjee.xyz" class="link link-info">blog</a>
+        </p>
+        <p class="text-center">broken links? <a class="link link-secondary" target="_blank"
+                href="https://github.com/amkhrjee/resources">raise an issue on github</a></p>
+        <p>python script + daisyui + html + markdown</p>
+        <p class="text-center italic">
+            Last Updated: <span id="commit-date"></span>
+        </p>
+    </div>
+    <script>
+        // Getting the last updated date
+        fetch(
+            "https://api.github.com/repos/amkhrjee/resources/commits?per_page=1"
+        )
+            .then((res) => res.json())
+            .then((commits) => {
+                const lastCommitDate = commits[0].commit.author.date;
+                const formattedDate = new Date(lastCommitDate).toLocaleString(
+                    "en-GB",
+                    {
+                        day: "numeric",
+                        month: "short",
+                        year: "numeric",
+                    }
+                );
+                document.getElementById("commit-date").innerHTML = formattedDate;
+            })
+            .catch((error) => console.error(error));
+    </script>
+</body>
 
-### Design as Art
-
-Has some nice illustrations. Talks about why design should be both functional and beautiful. Oddball book I picked up because I thought I was good at sketching. I am not.
-
-### Infinite Powers
-
-Written by Steven Strogatz. Talks about the history of Calculus. Lots of fun maths history trivia.
-
-### Revolutionaries
-
-Written by Sanjeev Sanyal. Talks about the rebel movements & revolutionaries of pre-independent India. I'm a history nerd so I really liked this one.
-
-### The Incredible History of India's Geography
-
-Another one by Sanjeev Sanyal. Enjoyed this one thorughly. Good gift material for kids too.
-
-### Let's Talk Money
-
-By Monika Halan. Personal finance stuff. Very well written.
-
-### Cosmos
-
-Magnum opus of Carl Sagan. Inspiring & revealing. A must read.
-
-## Books I own but haven't read yet
-
-> Reading books and buying books are two totally different hobbies.
-
-- _The Martian_ by Andy Weir
-- _The Righteous Life_ by APJ Abdul Kalam
-- _Thinking Fast & Slow_ by Daniel Kahneman
-- _Alan Turing: The Enigma_ by Andrew Hodges
-- _Steve Jobs_ by Walter Isaacson (halfway through it)
-- _Gene_ by Siddhartha Mukherjee (no, we're not related afaik)
-- _Midnight's Machines_ by AM Sukumar (halfway through this one too)
+</html>
