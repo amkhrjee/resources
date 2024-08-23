@@ -2,7 +2,7 @@ Hi! This is my index of all the resources that I think are good and worth keepin
 
 ## Programming Languages
 
-### JavaScriptS & TypeScript
+### JavaScript & TypeScript
 
 I highly recommend learning JS from [javascript.info](https://javascript.info/). It's like the missing documentation to the language. The [official documentaion](https://www.typescriptlang.org/) is good enough for getting started with TypeScript.
 
@@ -113,5 +113,3 @@ I also made my notes [public](https://satisfying-wallet-4a1.notion.site/AWS-Cert
 ## Natural Language Processing
 
 Currently reading [NLP in Action](https://www.manning.com/books/natural-language-processing-in-action) and I think it works as a good intro to the subject.
-
-P.S. If you have any suggestions, you can [mail](mailto:amkhrjee@gmail.com) me.
