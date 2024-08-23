@@ -34,10 +34,10 @@ Magnum opus of Carl Sagan. Inspiring & revealing. A must read.
 
 > Reading books and buying books are two totally different hobbies.
 
-- The Martian by Andy Weir
-- The Righteous Life by APJ Abdul Kalam
-- Thinking Fast & Slow by Daniel Kahneman
-- Alan Turing: The Enigma by Andrew Hodges
-- Steve Jobs by Walter Isaacson (halfway through it)
-- Gene by Siddhartha Mukherjee (no, we're not related afaik)
-- Midnight's Machines by AM Sukumar (halfway through this one too)
+- **The Martian** by Andy Weir
+- **The Righteous Life** by APJ Abdul Kalam
+- **Thinking Fast & Slow** by Daniel Kahneman
+- **Alan Turing: The Enigma** by Andrew Hodges
+- **Steve Jobs** by Walter Isaacson (halfway through it)
+- **Gene** by Siddhartha Mukherjee (no, we're not related afaik)
+- **Midnight's Machines** by AM Sukumar (halfway through this one too)
