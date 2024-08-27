@@ -1,34 +1,20 @@
-### Project Hail Mary
+The books are listed in no particular order, or rather, in the order I remembered them while writing this. I read all sort of books and this hopefully this list reflects just that. If you're on Goodreads, you can checkout my [profile](https://www.goodreads.com/amkhrjee).
 
-Read this if you like more science in your fiction. Extremely enjoyable.
+- **Project Hail Mary** by Andy Weir. One of my favorite science fictions of all time. They're even making a movie out of it! Throughouly enjoyable and has lots of cool science. A total page turner.
 
-### 1984
+- **1984** by George Orwell. A classic. Only recently got the time to read it. Thought provoking. The author was born in Bihar btw.
 
-A classic. Only recently got the time to read it. Thought provoking. The author was born in Bihar btw.
+- **Design as Art** by Bruno Murari. Has some nice illustrations. Talks about why design should be both functional and beautiful. Oddball book I picked up because I thought I was good at sketching. I am not.
 
-### Design as Art
+- **Infinite Powers** by Steven Strogatz. Talks about the history of Calculus. Lots of fun maths history trivia. Has an image of Newton's notebook where he discovers integrals for the first time!
 
-Has some nice illustrations. Talks about why design should be both functional and beautiful. Oddball book I picked up because I thought I was good at sketching. I am not.
+- **Revolutionaries** by Sanjeev Sanyal. Talks about the rebel movements & revolutionaries of pre-independent India. I'm a history nerd so I really liked this one.
 
-### Infinite Powers
+- **The Incredible History of India's Geography** by Sanjeeev Sanyal. Enjoyed this one thorughly. Good gift material for kids too.
 
-Written by Steven Strogatz. Talks about the history of Calculus. Lots of fun maths history trivia.
+- **Let's Talk Money** by Monika Halan. Personal finance stuff. Very well written. Covers a lot of ground.
 
-### Revolutionaries
-
-Written by Sanjeev Sanyal. Talks about the rebel movements & revolutionaries of pre-independent India. I'm a history nerd so I really liked this one.
-
-### The Incredible History of India's Geography
-
-Another one by Sanjeev Sanyal. Enjoyed this one thorughly. Good gift material for kids too.
-
-### Let's Talk Money
-
-By Monika Halan. Personal finance stuff. Very well written.
-
-### Cosmos
-
-Magnum opus of Carl Sagan. Inspiring & revealing. A must read.
+- **Cosmos** by Carl Sagan. Magnum opus of Carl Sagan. Inspiring & revealing. A must read.
 
 ## Books I own but haven't read yet
 
