@@ -22,7 +22,7 @@ For C++, [learncpp.com](https://www.learncpp.com/) provides excellent tutorial
 
 ### Rust
 
-I learnt Rust (and still learn, when needed) from [Brown University's fork](https://rust-book.cs.brown.edu/) of the official Rust book.
+I learnt Rust (and still learn, when needed) from [Brown University's fork](https://rust-book.cs.brown.edu/) of the official Rust book. I also encourage you to checkout [this youtube playlist](https://youtube.com/playlist?list=PLwhLlO5Vugx6KCwTpW_4fUeES2jdkDSW9&si=6ZjA9GpD9rijoDOOi) by the channel *300 seconds of Rust*.
 
 ### Go
 
