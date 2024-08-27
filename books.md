@@ -16,7 +16,7 @@ The books are listed in no particular order, or rather, in the order I remembere
 
 - **Cosmos** by Carl Sagan. Magnum opus of Carl Sagan. Inspiring & revealing. A must read.
 
-## Books I own but haven't read yet
+### Books I own but haven't read yet
 
 > Reading books and buying books are two totally different hobbies.
 
