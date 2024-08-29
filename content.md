@@ -24,6 +24,8 @@ For C++, [learncpp.com](https://www.learncpp.com/) provides excellent tutorial
 
 I learnt Rust (and still learn, when needed) from [Brown University's fork](https://rust-book.cs.brown.edu/) of the official Rust book. I also encourage you to checkout [this youtube playlist](https://youtube.com/playlist?list=PLwhLlO5Vugx6KCwTpW_4fUeES2jdkDSW9&si=6ZjA9GpD9rijoDOOi) by the channel *300 seconds of Rust*.
 
+[This](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/error-handling.html) is a excellent article on error handling in Rust.
+
 ### Go
 
 Inspired by melkeydev's video, I learnt Go from [A Tour of Go](https://go.dev/tour/welcome/1). I haven't had the opportunity to use Go in any of "real" projects, so this section will have updates when I actually use Go in production.
