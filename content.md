@@ -112,6 +112,6 @@ I got my AWS Certified Cloud Practitioner Certification (yeah, that's a mouthful
 
 I also made my notes [public](https://satisfying-wallet-4a1.notion.site/AWS-Certs-Prep-f608a6f62fe04059bbf739f2b238bbb0).
 
-## Natural Language Processing
+## Deep Learning
 
-Currently reading [NLP in Action](https://www.manning.com/books/natural-language-processing-in-action) and I think it works as a good intro to the subject.
+Read Hands-On Machine Learning by Aurélien Géron. Watch Andrej Karpathy's Neural Networks [playlist](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ). Maybe also read Mark Nielson's [ebook](http://neuralnetworksanddeeplearning.com/). Sebastian Raschka's Deep Learning [playlist](https://www.youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51) is comprehensive and excellent.
