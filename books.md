@@ -2,6 +2,10 @@ The books are listed in no particular order, or rather, in the order I remembere
 
 - **Project Hail Mary** by Andy Weir. One of my favorite science fictions of all time. They're even making a movie out of it! Throughouly enjoyable and has lots of cool science. A total page turner.
 
+- **Metamorphosis** by Franz Kafka. A masterpiece. Amazing how relatable it was despite of being a rather strange work of fiction.
+
+- **White Nights** by Freydor Dostoevsky. A rather poetic novella about solitude. Good read.
+
 - **1984** by George Orwell. A classic. Only recently got the time to read it. Thought provoking. The author was born in Bihar btw.
 
 - **Design as Art** by Bruno Murari. Has some nice illustrations. Talks about why design should be both functional and beautiful. Oddball book I picked up because I thought I was good at sketching. I am not.
