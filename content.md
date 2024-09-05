@@ -2,9 +2,9 @@ Hi! This is my index of all the resources that I think are good and worth keepin
 
 ## Programming Languages
 
-### JavaScript & TypeScript
+### Javascript
 
-I highly recommend learning JS from [javascript.info](https://javascript.info/). It's like the missing documentation to the language. The [official documentaion](https://www.typescriptlang.org/) is good enough for getting started with TypeScript.
+I highly recommend learning JS from [javascript.info](https://javascript.info/). It's like the missing documentation to the language. The [official documentaion](https://www.typescriptlang.org/) is good enough for getting started with Typescript.
 
 ### Python
 
@@ -22,7 +22,7 @@ For C++, [learncpp.com](https://www.learncpp.com/) provides excellent tutorial
 
 ### Rust
 
-I learnt Rust (and still learn, when needed) from [Brown University's fork](https://rust-book.cs.brown.edu/) of the official Rust book. I also encourage you to checkout [this youtube playlist](https://youtube.com/playlist?list=PLwhLlO5Vugx6KCwTpW_4fUeES2jdkDSW9&si=6ZjA9GpD9rijoDOOi) by the channel *300 seconds of Rust*.
+I learnt Rust (and still learn, when needed) from [Brown University's fork](https://rust-book.cs.brown.edu/) of the official Rust book. I also encourage you to checkout [this youtube playlist](https://youtube.com/playlist?list=PLwhLlO5Vugx6KCwTpW_4fUeES2jdkDSW9&si=6ZjA9GpD9rijoDOOi) by the channel _300 seconds of Rust_.
 
 [This](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/error-handling.html) is a excellent article on error handling in Rust.
 
